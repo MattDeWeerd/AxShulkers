@@ -1,7 +1,7 @@
 name: AxShulkers
-version: '${project.version}'
+version: "${project.version}"
 main: com.artillexstudios.axshulkers.AxShulkers
-api-version: '1.13'
+api-version: "1.13"
 folia-supported: true
 
 commands:
@@ -16,6 +16,6 @@ permissions:
   axshulkers.clear:
     default: op
   axshulkers.modify:
-    default: true
+    default: false
   axshulkers.use:
-    default: true
+    default: false
